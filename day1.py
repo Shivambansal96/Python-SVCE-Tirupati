@@ -80,14 +80,20 @@
 
 
 
-fruit = "aPple"
+# fruit = "aPple"
 
-print(fruit.capitalize())
-print(fruit.count('p'))
-print(fruit.endswith('e'))
-print(fruit.find('z'))
-print(fruit.index('p'))
-print(fruit.replace('p', 'c', 1))
-print(fruit.swapcase())
-print(fruit.upper())
-print(fruit)
+# print(fruit.capitalize())
+# print(fruit.count('p'))
+# print(fruit.endswith('e'))
+# print(fruit.find('z'))
+# print(fruit.index('p'))
+# print(fruit.replace('p', 'c', 1))
+# print(fruit.swapcase())
+# print(fruit.upper())
+# print(fruit)
+
+
+
+email = "Shivambansal96@gmail.com"
+
+print(email.endswith(".com") and "@" in email)
