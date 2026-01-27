@@ -148,16 +148,16 @@ graph LR
     H --> I["🏛️ Day 9<br/>OOPS"]
     I --> J["🚀 Day 10<br/>AI Problem Solving"]
     
-    style A fill:#90EE90
-    style B fill:#87CEEB
-    style C fill:#87CEEB
-    style D fill:#87CEEB
-    style E fill:#87CEEB
-    style F fill:#87CEEB
-    style G fill:#87CEEB
-    style H fill:#87CEEB
-    style I fill:#87CEEB
-    style J fill:#87CEEB
+    style A fill:#FF6B6B,stroke:#333,color:#000
+    style B fill:#FFA500,stroke:#333,color:#000
+    style C fill:#FFD93D,stroke:#333,color:#000
+    style D fill:#6BCB77,stroke:#333,color:#000
+    style E fill:#4D96FF,stroke:#333,color:#fff
+    style F fill:#7C3AED,stroke:#333,color:#fff
+    style G fill:#EC4899,stroke:#333,color:#fff
+    style H fill:#F59E0B,stroke:#333,color:#000
+    style I fill:#3B82F6,stroke:#333,color:#fff
+    style J fill:#10B981,stroke:#333,color:#fff
 ```
 
 ---
