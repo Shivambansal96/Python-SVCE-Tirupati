@@ -50,7 +50,10 @@ Practice Problems & Solutions
 - **Python Basics** - Introduction and Setup
 - **Variables** - Declaration and Assignment
 - **Data Types** - Integers, Floats, Strings, Booleans
-- **Operators** - Arithmetic, Comparison, Logical
+- **Arithmetic Operators** ( `+` , `-` , `*` , `/` , `%` , `**` )
+- **Relational / Comparison Operators** ( `==` , `!=` , `>` , `<` , `>=` , `<=` )
+- **Assignment Operators** ( `=` , `+=` , `-=` , `*=` , `/=` , `%=` , `**=` )
+- **Logical Operators** ( `not` , `and` , `or` )
 - **Input & Output** - `input()`, `print()` functions
 
 ### ✅ String In-Built Functions
@@ -60,27 +63,65 @@ Practice Problems & Solutions
 - **Validation** - `isdigit()`, `isalpha()`, `isspace()`, `startswith()`, `endswith()`
 - **Formatting** - String concatenation, f-strings
 
+### ✅ Type Conversion & Casting
+- **Automatic Type Conversion** - Implicit conversion by Python
+- **Manual Type Casting** - `int()`, `float()`, `str()`, `bool()`
+- **Type Checking** - `type()` function
+- **String to Number** - Converting strings to integers and floats
+- **Type Errors** - Understanding and handling conversion errors
+
 ---
 
 ## 🏆 Practice Questions
 
-### Question Category: String Functions
-Multiple practice questions covering:
-- String manipulation
-- Pattern matching
-- Case conversions
-- String methods and properties
+### Questions Covered Today - Day 1
+
+#### 📝 **Basic Operations & Input/Output:**
+1. ✅ Simple print with separator (`sep` parameter)
+2. ✅ Addition of two numbers and displaying sum
+3. ✅ Compound assignment operators (`+=`)
+4. ✅ Type conversion - String to Integer
+5. ✅ Type checking using `type()` function
+6. ✅ Taking user input for name, age, and city
+7. ✅ F-string formatting for output
+
+#### 📝 **Mathematical Operations:**
+8. ✅ **Q1:** Sum of two numbers with user input
+9. ✅ **Q2:** Area of a square using exponent operator (`**`)
+10. ✅ **Q3:** Average of two numbers using floor division (`//`)
+11. ✅ **Q4:** Comparison operators - Checking if a >= b
+
+#### 📝 **String Operations & Methods:**
+12. ✅ String reversal using slicing (`[::-1]`)
+13. ✅ String indexing - Comparing first and last characters
+14. ✅ **String Methods Practiced:**
+    - `.capitalize()` - Capitalize first letter
+    - `.count()` - Count character occurrences
+    - `.endswith()` - Check if string ends with substring
+    - `.find()` - Find character position
+    - `.index()` - Find index of character
+    - `.replace()` - Replace characters
+    - `.swapcase()` - Toggle case of characters
+    - `.upper()` - Convert to uppercase
+
+#### 📝 **Complex Problem:**
+15. ✅ **Email Validation:** Check if email ends with ".com" AND contains "@" (using logical operators `and` and `in`)
+
+**Total Questions Practiced: 15+** 🎉
 
 ---
 
 ## 🎯 What's Next
 
 - **Day 2:** Conditional Statements (if-else ladder, switch case) & Introduction to Loops
-- **Day 3:** Lists, Tuples & Collections
-- **Day 4:** Advanced Loops & Control Flow
-- **Day 5:** Functions & Scope
-- **Day 6:** File Handling
-- **Day 7:** Object-Oriented Programming
+- **Day 3:** Loops Complete & Pattern Printing
+- **Day 4:** Data Structures (Lists, Tuples, Dictionaries)
+- **Day 5:** Problem Solving with Patterns
+- **Day 6:** Functions & Modular Programming
+- **Day 7:** File Handling & I/O Operations
+- **Day 8:** Classes and Objects
+- **Day 9:** Object-Oriented Programming (OOPS)
+- **Day 10:** Problem Solving (with AI Assistant)
 
 ---
 
@@ -88,7 +129,8 @@ Multiple practice questions covering:
 
 - Official Python Documentation: https://docs.python.org/3/
 - Python Tutorial: https://www.python.org/about/gettingstarted/
-- Practice Platform: LeetCode, HackerRank, CodeSignal
+- byteXL Platform: https://bytexl.app/
+- Practice Platforms: LeetCode, HackerRank, CodeSignal
 
 ---
 
@@ -96,16 +138,16 @@ Multiple practice questions covering:
 
 | Day | Topic | Status |
 |-----|-------|--------|
-| Day 1 | Python Basics & Strings | ✅ Completed |
+| Day 1 | Python Basics, Strings & Type Conversion | ✅ Completed |
 | Day 2 | Conditional Statements & Loops (Intro) | ⏳ Upcoming |
-| Day 3 | Loops Complete | ⏳ Upcoming |
-| Day 4 | Data Structures | ⏳ Upcoming |
-| Day 5 | Patterns | ⏳ Upcoming |
-| Day 6 | Functions | ⏳ Upcoming |
-| Day 7 | File Handling | ⏳ Upcoming |
-| Day 8 | Class and Objects | ⏳ Upcoming |
-| Day 9 | OOPS | ⏳ Upcoming |
-| Day 10 | Problem Solving (with AI) | ⏳ Upcoming |
+| Day 3 | Loops Complete & Pattern Printing | ⏳ Upcoming |
+| Day 4 | Data Structures (Lists, Tuples, Dicts) | ⏳ Upcoming |
+| Day 5 | Problem Solving with Patterns | ⏳ Upcoming |
+| Day 6 | Functions & Modular Programming | ⏳ Upcoming |
+| Day 7 | File Handling & I/O Operations | ⏳ Upcoming |
+| Day 8 | Classes and Objects | ⏳ Upcoming |
+| Day 9 | Object-Oriented Programming (OOPS) | ⏳ Upcoming |
+| Day 10 | Problem Solving (with AI Assistant) | ⏳ Upcoming |
 
 
 ---
@@ -261,7 +303,7 @@ Advanced Topics:
 
 ## 🎓 Learning Summary
 
-### ✅ What You'll Learn in Day 1:
+### ✅ What You Learnt in Day 1:
 - Python basics from absolute scratch
 - Variables, data types, and operators
 - String in-built functions and methods
@@ -296,22 +338,6 @@ Advanced Topics:
 | **Review Daily** | Reinforces learning and memory |
 | **Join Communities** | Motivation and peer support |
 | **Celebrate Small Wins** | Builds confidence and momentum |
-
----
-
-## 📞 Support & Contact
-
-- **Ask for help** during class hours
-- **Review class notes** regularly
-- **Practice consistently** for skill building
-- **Participate actively** in group discussions
-
----
-
-**Happy Learning! 🎉**
-
-*Remember: "Slow progress is still progress. Keep coding!"* 💻
-
 
 ---
 
