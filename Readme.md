@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%201-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%202-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -62,30 +62,28 @@ Day 1 - Python Basics, Strings & Type Conversion:
 ✅ String In-Built Functions (13+ methods covered)
 ✅ 15+ Practice Questions Solved
 
-Day 2 - Conditional Statements & Loops (Intro):
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+Day 2 - Conditional Statements:
+████████████████████████████████ 100%
 
-⏳ if, else, elif statements
-⏳ if-else ladder
-⏳ Switch case alternative patterns
-⏳ for loop basics
-⏳ while loop basics
-⏳ Loop control (break, continue)
+✅ if, else, elif statements
+✅ if-else ladder
+✅ Switch case alternative patterns
 
-Day 3 - Loops Complete & Pattern Printing:
+Day 3 - Loops Complete & Data Structures (Lists, Tuples):
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
 
 ⏳ Nested loops
-⏳ Pattern printing (triangles, pyramids, etc.)
 ⏳ Loop optimization
-
-Day 4 - Data Structures (Lists, Tuples, Dictionaries):
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
-
 ⏳ Lists - Creation, indexing, slicing
 ⏳ List methods (append, remove, pop, etc.)
 ⏳ Tuples - Immutable sequences
+
+Day 4 - Data Structures (Dictionaries) & Pattern Solving:
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
 ⏳ Dictionaries - Key-value pairs
+⏳ Dictionary methods
+⏳ Pattern solving (number, string, complex)
 
 Day 5 - Problem Solving with Patterns:
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -148,8 +146,8 @@ graph LR
     H --> I["🏛️ Day 9<br/>OOPS"]
     I --> J["🚀 Day 10<br/>AI Problem Solving"]
     
-    style A fill:#FF6B6B,stroke:#333,color:#000
-    style B fill:#FFA500,stroke:#333,color:#000
+    style A fill:#90EE90,stroke:#333,color:#000
+    style B fill:#90EE90,stroke:#333,color:#000
     style C fill:#FFD93D,stroke:#333,color:#000
     style D fill:#6BCB77,stroke:#333,color:#000
     style E fill:#4D96FF,stroke:#333,color:#fff
@@ -190,9 +188,23 @@ graph LR
 
 ---
 
+## 📚 Topics Covered - Day 2
+
+### ✅ Conditional Statements
+- **if Statements** - Basic conditional execution
+- **else Statements** - Alternative execution path
+- **elif Statements** - Multiple condition checking
+- **if-else Ladder** - Chained conditional statements
+- **Nested if Statements** - Conditionals within conditionals
+- **Switch Case Patterns** - Alternative to if-else chains (using if-elif-else)
+- **Logical Operators in Conditions** - Combining conditions with `and`, `or`, `not`
+- **Comparison Operators** - Using `==`, `!=`, `>`, `<`, `>=`, `<=` in conditions
+
+---
+
 ## 🏆 Practice Questions
 
-### Questions Covered Today - Day 1
+### Questions Covered - Day 1
 
 #### 📝 **Basic Operations & Input/Output:**
 1. ✅ Simple print with separator (`sep` parameter)
@@ -228,6 +240,30 @@ graph LR
 **Total Questions Practiced: 15+** 🎉
 
 ---
+
+### Questions Covered - Day 2
+
+#### 📝 **Intro to Python Topic - byteXL Platform (8 Questions):**
+Basic Python fundamentals covering print statements, variable assignments, basic arithmetic, type conversion, and simple data manipulation exercises for beginners.
+
+#### 📝 **Variables Topic - byteXL Platform (7 Questions):**
+Comprehensive practice on variable declaration, assignment, manipulation, and understanding scope in Python with real-world examples.
+
+
+#### 📝 **Conditional Statements Topic (8 Questions):**
+1. ✅ Check if a string given as input is which dataType (String, Integer, Float)
+2. ✅ Age category classifier (Adult, Senior Citizen, Minor)
+3. ✅ Age category with nested if statements
+4. ✅ Traffic signal color handler (Red, Yellow, Green)
+5. ✅ Student grade calculator (Grade A, B, C, D)
+6. ✅ Simplified grade calculator with chained elif
+7. ✅ Odd or Even number checker
+8. ✅ Username format validator
+9. ✅ Find maximum of 3 numbers
+10. ✅ Multiple of 7 checker
+11. ✅ Generic multiple checker (divisibility for any divisor)
+
+**Total Questions Practiced Today - Day 2: 24+** 🎉
 
 ## 📝 Notes
 
