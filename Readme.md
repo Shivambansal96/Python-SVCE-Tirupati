@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%202-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%203-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -69,21 +69,29 @@ Day 2 - Conditional Statements:
 ✅ if-else ladder
 ✅ Switch case alternative patterns
 
-Day 3 - Loops Complete & Data Structures (Lists, Tuples):
+Day 3 - Loops Complete & Data Structures (Lists):
+████████████████████████████████ 100%
+
+✅ for Loop - Iteration with range()
+✅ while Loop - Condition-based iteration
+✅ Loop Control Statements - break and continue
+✅ Nested Loops - Loops within loops
+✅ for-else & while-else - Loop with else clause
+✅ Iterating over Sequences - Lists, strings, ranges
+✅ Loop Optimization & Best Practices
+✅ Lists - Creation and initialization
+✅ List Indexing - Accessing elements by position
+✅ List Slicing - Extracting sublists
+✅ List Methods - append(), remove(), pop(), reverse(), count(), sort()
+✅ 20+ Practice Questions Solved
+
+Day 4 - Data Structures (Tuples, Sets, Dictionaries):
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
 
-⏳ Nested loops
-⏳ Loop optimization
-⏳ Lists - Creation, indexing, slicing
-⏳ List methods (append, remove, pop, etc.)
 ⏳ Tuples - Immutable sequences
-
-Day 4 - Data Structures (Dictionaries) & Pattern Solving:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
-
+⏳ Sets - Unordered collections of unique elements
 ⏳ Dictionaries - Key-value pairs
 ⏳ Dictionary methods
-⏳ Pattern solving (number, string, complex)
 
 Day 5 - Problem Solving with Patterns:
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -148,7 +156,7 @@ graph LR
     
     style A fill:#90EE90,stroke:#333,color:#000
     style B fill:#90EE90,stroke:#333,color:#000
-    style C fill:#FFD93D,stroke:#333,color:#000
+    style C fill:#90EE90,stroke:#333,color:#000
     style D fill:#6BCB77,stroke:#333,color:#000
     style E fill:#4D96FF,stroke:#333,color:#fff
     style F fill:#7C3AED,stroke:#333,color:#fff
@@ -199,6 +207,28 @@ graph LR
 - **Switch Case Patterns** - Alternative to if-else chains (using if-elif-else)
 - **Logical Operators in Conditions** - Combining conditions with `and`, `or`, `not`
 - **Comparison Operators** - Using `==`, `!=`, `>`, `<`, `>=`, `<=` in conditions
+
+---
+
+## 📚 Topics Covered - Day 3
+
+### ✅ Loop Fundamentals
+- **for Loop** - Iteration with `range()`, iterating over sequences
+- **while Loop** - Condition-based iteration and loop control
+- **Loop Control Statements** - `break` statement to exit loops, `continue` to skip iterations
+- **for-else & while-else** - Else clause execution when loop completes normally
+- **Nested Loops** - Loops within loops for complex iterations
+- **Iterating over Sequences** - Looping through lists, strings, and ranges
+- **Loop Optimization** - Writing efficient and clean loop code
+
+### ✅ Lists - Introduction to Data Structures
+- **List Creation & Initialization** - Creating lists with `[]` and `list()`
+- **List Indexing** - Accessing elements using positive and negative indices
+- **List Slicing** - Extracting sublists using `[start:end:step]`
+- **List Methods** - `append()`, `remove()`, `pop()`, `reverse()`, `count()`, `sort()`
+- **Iterating Lists** - Using for loops to process list elements
+- **List Operations** - Adding elements, modifying, and removing items
+- **List Properties** - Understanding mutability and reference behavior
 
 ---
 
@@ -265,6 +295,40 @@ Comprehensive practice on variable declaration, assignment, manipulation, and un
 
 **Total Questions Practiced Today - Day 2: 24+** 🎉
 
+---
+
+### Questions Covered - Day 3
+
+#### 📝 **Loop Control & Iteration (7 Questions):**
+1. ✅ Print numbers 1 to 100 using for loop with `range()`
+2. ✅ Print numbers 100 to 1 in reverse order
+3. ✅ Print even numbers from 2 to 20
+4. ✅ Multiplication table generator with user input
+5. ✅ Countdown loop using while loop
+6. ✅ Loop control with `break` - Exit loop at specific condition
+7. ✅ Loop control with `continue` - Skip iterations
+
+#### 📝 **Mathematical Problems with Loops (4 Questions):**
+8. ✅ **Sum of N Numbers** - Using while loop to calculate sum from 1 to N
+9. ✅ **Factorial Calculator** - Computing factorial using for loop
+10. ✅ **Iterating over Lists** - Accessing elements by index using for loop
+11. ✅ **Direct List Iteration** - Using for-in loop for cleaner syntax
+
+#### 📝 **Lists Operations & Methods (5 Questions):**
+12. ✅ **List Methods Practice** - Using append(), count(), remove(), reverse()
+13. ✅ **List Manipulation** - Adding and removing elements dynamically
+14. ✅ **Loop Control with else** - Understanding for-else execution
+15. ✅ **List Creation in Loop** - Generating lists of squares dynamically
+16. ✅ **List Comprehension Introduction** - Creating lists with loops
+
+#### 📝 **Advanced Loop Concepts (4+ Questions):**
+17. ✅ **Nested Loops** - Loop within loop for complex patterns
+18. ✅ **Break Statement** - Exiting loops prematurely
+19. ✅ **Continue Statement** - Skipping loop iterations
+20. ✅ **Loop Optimization** - Writing efficient and readable loops
+
+**Total Questions Practiced Today - Day 3: 20+** 🎉
+
 ## 📝 Notes
 
 - Review all string methods and practice with real-world examples
@@ -272,51 +336,6 @@ Comprehensive practice on variable declaration, assignment, manipulation, and un
 - Practice daily for better retention
 
 ---
-<!-- 
-## 🎖️ Learning Path Priority Guide
-
-#### Phase 1 - MUST LEARN (Tomorrow's Focus)
-```
-Day 2: Conditional Statements & Loops (Introduction)
-├── if, else, elif statements
-├── if-else ladder
-├── Switch case alternative patterns
-├── for loop basics
-├── while loop basics
-└── Loop control (break, continue)
-```
-
-#### Phase 2 - IMPORTANT (Upcoming Days)
-```
-Days 3-5: Data Structures & Functions
-├── Lists and basic operations
-├── Tuples and Sets
-├── Dictionaries (key-value pairs)
-├── Functions and recursion
-└── Scope and closures
-```
-
-#### Phase 3 - VALUABLE (Week 2+)
-```
-Days 6-7: File Handling & OOP
-├── File operations (read, write, append)
-├── Exception handling (try-except)
-├── Classes and Objects basics
-├── Inheritance and Polymorphism
-└── Encapsulation
-```
-
-#### Phase 4 - ADVANCED (Week 3+)
-```
-Advanced Topics:
-├── Decorators and Generators
-├── List comprehension & Lambda
-├── Regular Expressions
-├── Libraries (NumPy, Pandas)
-└── Web Development basics
-```
-
---- -->
 
 ## 📚 Learning Resources
 
