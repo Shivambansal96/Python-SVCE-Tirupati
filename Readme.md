@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%203-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%204-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -85,13 +85,16 @@ Day 3 - Loops Complete & Data Structures (Lists):
 ✅ List Methods - append(), remove(), pop(), reverse(), count(), sort()
 ✅ 20+ Practice Questions Solved
 
-Day 4 - Data Structures (Tuples, Sets, Dictionaries):
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+Day 4 - Data Structures (Tuples and Sets):
+████████████████████████████████ 100%
 
-⏳ Tuples - Immutable sequences
-⏳ Sets - Unordered collections of unique elements
-⏳ Dictionaries - Key-value pairs
-⏳ Dictionary methods
+✅ Tuples - Immutable sequences
+✅ Sets - Unordered collections of unique elements
+✅ Tuple Methods - count() and index()
+✅ Tuple Conversion - Converting tuples to lists
+✅ Set Operations - Union, Intersection, Difference
+✅ Finding Duplicates - Using sets to identify duplicate elements
+✅ 8+ Practice Questions Solved
 
 Day 5 - Problem Solving with Patterns:
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -328,6 +331,64 @@ Comprehensive practice on variable declaration, assignment, manipulation, and un
 20. ✅ **Loop Optimization** - Writing efficient and readable loops
 
 **Total Questions Practiced Today - Day 3: 20+** 🎉
+
+---
+
+## 📚 Topics Covered - Day 4
+
+### ✅ Tuples - Immutable Sequences
+- **Tuple Creation & Initialization** - Creating tuples with `()` and `tuple()`
+- **Single Element Tuple** - Creating a tuple with one element using `(x,)` notation
+- **Tuple Indexing** - Accessing elements using positive and negative indices
+- **Tuple Slicing** - Extracting sublists using `[start:end:step]`
+- **Tuple Immutability** - Understanding that tuples cannot be modified
+- **Tuple Methods** - `count()` to count occurrences, `index()` to find element position
+- **Tuple Conversion** - Converting tuples to lists using `list()` for manipulation, then back to tuple
+- **Sorting Tuples** - Converting to list, sorting, and working with results
+- **Iterating Tuples** - Using for loops to process tuple elements
+- **Tuple Unpacking** - Assigning tuple elements to multiple variables
+
+### ✅ Sets - Unordered Collections of Unique Elements
+- **Set Creation & Initialization** - Creating sets with `{}` and `set()`
+- **Empty Set Creation** - Using `set()` instead of `{}` to avoid creating dictionaries
+- **Set Uniqueness** - Automatically removing duplicate elements
+- **Set Methods** - Basic operations and set manipulations
+- **Set Operations** - 
+  - **Union** - Combining sets using `union()` or `|` operator
+  - **Intersection** - Finding common elements using `intersection()` or `&` operator
+  - **Difference** - Finding elements in one set but not another
+- **Finding Duplicates in Lists** - Converting lists to sets and comparing
+- **Removing Duplicates** - Using sets to eliminate duplicate values from lists
+- **Nested Set Operations** - Complex set manipulations for data analysis
+- **Iterating Sets** - Using for loops to process set elements
+
+---
+
+### Questions Covered - Day 4
+
+#### 📝 **Tuples Operations (3 Questions):**
+1. ✅ **Count and Index Operations** - Using `count()` to count occurrences of elements in a tuple
+2. ✅ **Tuple Conversion to List** - Converting tuple to list, sorting, and manipulating data
+3. ✅ **Odd and Even Count** - Iterating through a tuple to count odd and even elements
+
+#### 📝 **Sets & Duplicate Detection (5+ Questions):**
+4. ✅ **Finding Common Words** - Using `intersection()` to find common words in two text strings
+5. ✅ **Finding All Unique Words** - Using `union()` to combine and count unique words from multiple texts
+6. ✅ **Detecting Duplicates (Method 1)** - Using count() in lists to find duplicate elements
+7. ✅ **Detecting Duplicates (Method 2)** - Using nested loops to identify duplicate elements
+8. ✅ **Detecting Duplicates (Method 3)** - Using sets to efficiently find duplicate elements with occurrence counting
+
+**Key Concepts Practiced:**
+- 🔹 Set intersection for common elements
+- 🔹 Set union for combining unique elements
+- 🔹 Tuple immutability and conversion to mutable data structures
+- 🔹 Multiple approaches to duplicate detection (list methods, nested loops, sets)
+- 🔹 Counting elements in tuples
+- 🔹 String operations with sets (splitting and set conversion)
+
+**Total Questions Practiced Today - Day 4: 8+** 🎉
+
+---
 
 ## 📝 Notes
 
