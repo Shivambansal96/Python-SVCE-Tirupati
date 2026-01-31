@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%204-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%205-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -97,11 +97,16 @@ Day 4 - Data Structures (Tuples and Sets):
 ✅ 8+ Practice Questions Solved
 
 Day 5 - Problem Solving with Patterns:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+████████████████████████████████ 100%
 
-⏳ Number patterns
-⏳ String patterns
-⏳ Complex problem solving
+✅ Number Patterns - Star patterns, Triangle patterns, Diamond patterns
+✅ Number Patterns with Digits - Printing numbers in patterns
+✅ String Patterns with Characters - Using ASCII values and chr() function
+✅ Pattern Variations - Reverse patterns, inverted pyramids
+✅ 2D Array Concepts with Nested Loops - Working with rows and columns
+✅ List Comprehension with Patterns - Generating patterns efficiently
+✅ Problem-Solving Approach - Analyzing pattern logic step-by-step
+✅ Pyramid Pattern with Spacing - Centered pyramids with numbers
 
 Day 6 - Functions & Modular Programming:
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -390,7 +395,72 @@ Comprehensive practice on variable declaration, assignment, manipulation, and un
 
 ---
 
-## 📝 Notes
+## � Topics Covered - Day 5
+
+### ✅ Pattern Fundamentals
+- **Basic Patterns** - Rectangle and square patterns using nested loops
+- **Star Patterns** - Printing asterisks in various geometric shapes
+- **Pyramid Patterns** - Creating right triangles, isosceles triangles, and pyramids
+- **Inverted Patterns** - Reverse triangles and upside-down pyramids
+- **Pattern Logic** - Understanding the relationship between row and column indices
+
+### ✅ Number Patterns
+- **Number Pyramid** - Printing numbers 1 to n in pyramid formation
+- **Repeated Row Numbers** - Each row displays the row number n times
+- **Digit Sequences** - Sequential numbers in rows (1, 2, 3... in each row)
+- **Right Triangle Numbers** - Progressive numbers in triangular formation
+
+### ✅ Character & ASCII Patterns
+- **ASCII Character Patterns** - Using `chr()` and `ord()` functions for character manipulation
+- **Alphabetic Patterns** - Creating patterns with letters
+- **Character Ranges** - Working with ASCII values to generate character sequences
+
+### ✅ 2D List/Matrix Concepts (Introduction)
+- **Nested Loops for Matrices** - Understanding row-column iteration
+- **Matrix-like Pattern Generation** - Creating multi-dimensional output
+- **Spacing and Alignment** - Adding spaces for proper pattern alignment
+- **Centered Patterns** - Creating centered pyramid patterns with proper formatting
+
+### ✅ Advanced Pattern Solving
+- **Centered Pyramid** - Diamond and centered patterns with calculated spacing
+- **Dynamic Pattern Size** - Patterns that scale based on user input (n value)
+- **Pattern Complexity** - Combining multiple pattern types in one problem
+- **Code Optimization** - Writing efficient pattern generation code
+
+---
+
+### Questions Covered - Day 5
+
+#### 📝 **Basic Pattern Problems (8+ Questions):**
+1. ✅ **Simple Rectangle Pattern** - Print n×n grid of asterisks using nested loops
+2. ✅ **Right Triangle Pattern** - Print increasing asterisks pattern (*,  * *, * * *)
+3. ✅ **Number Pyramid (1)** - Print numbers incrementing in each row
+4. ✅ **Number Pyramid (2)** - Print row number repeated n times
+5. ✅ **Inverted Triangle** - Print decreasing asterisks pattern
+6. ✅ **Decreasing Spaces Pattern** - Print asterisks with decreasing leading spaces
+7. ✅ **ASCII Character Pattern** - Using chr() function with ASCII values
+8. ✅ **Character Pyramid** - Print alphabetic characters in pyramid shape
+
+#### 📝 **2D Concepts & Advanced Problems:**
+9. ✅ **Centered Number Pyramid** - Print pyramid with proper spacing and row numbers
+10. ✅ **Matrix Understanding** - Nested loops simulating 2D array/matrix iteration
+11. ✅ **Dynamic Pattern Sizing** - Patterns that adjust based on input value
+
+#### 📝 **Array/List Problem-Solving (Previously Covered):**
+12. ✅ **Two Sum Problem** - Find pairs in array that sum to target value
+13. ✅ **Finding Duplicates** - Identify duplicate elements in array using nested loops
+
+**Key Concepts Practiced:**
+- 🔹 Nested loops for multi-dimensional output
+- 🔹 Loop index manipulation for pattern generation
+- 🔹 ASCII values and character printing
+- 🔹 Spacing calculations for pattern alignment
+- 🔹 Introduction to 2D iteration concepts
+- 🔹 Debugging pattern logic step-by-step
+
+**Total Questions Practiced Today - Day 5: 13+** 🎉
+
+---
 
 - Review all string methods and practice with real-world examples
 - Focus on understanding the "why" behind each function
