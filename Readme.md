@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%206-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%207-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -122,12 +122,13 @@ Day 6 - Dictionaries & Functions:
 ✅ Mathematical Functions - Factorial, Permutation, Combination
 ✅ 8+ Practice Questions Solved
 
-Day 7 - File Handling & I/O Operations:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+Day 7 - Recursion, File Handling, Lambda Functions & Exception Handling:
+████████████████████████████████ 100%
 
-⏳ File operations (read, write, append)
-⏳ Context managers (with statement)
-⏳ Exception handling (try-except)
+✅ Recursion - Function calls itself with base case
+✅ File Handling - Read, write, and append operations
+✅ Lambda Functions - Anonymous functions with map() and filter()
+✅ Exception Handling - try-except-finally blocks
 
 Day 8 - Classes and Objects:
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -235,6 +236,67 @@ graph LR
 - **Function Basics** - Understanding when and why to use functions for code reusability
 - **Factorial Function** - Computing factorial of a number using loops inside functions
 - **Permutation & Combination** - Using factorial function to calculate nPr and nCr
+
+---
+## 📚 Topics Covered - Day 7
+
+### ✅ Recursion - Function Calling Itself
+- **Recursion Concept** - Function calling itself to solve a problem
+- **Base Case** - Stopping condition to prevent infinite recursion
+- **Recursive Case** - The function calling itself with modified parameters
+- **Call Stack** - Understanding how recursive calls are stored in memory
+- **Sum of Natural Numbers** - Computing sum from 1 to N using recursion
+- **Factorial Function** - Computing n! using recursive approach
+- **Advantages** - Code simplicity and elegance for tree-like problems
+- **Disadvantages** - Memory overhead and potential stack overflow
+- **Tail Recursion** - Recursion optimized for performance
+
+### ✅ File Handling - Input/Output Operations
+- **File Opening** - Using `open()` function with different modes ('r', 'w', 'a')
+- **File Modes Explained:**
+  - `'r'` (Read) - Open file for reading (default)
+  - `'w'` (Write) - Open file for writing (overwrites content)
+  - `'a'` (Append) - Open file for appending (adds to end)
+- **Reading Files** - Using `read()`, `readline()`, and iterating through lines
+- **Writing to Files** - Using `write()` method to add content
+- **Closing Files** - Using `close()` method to free resources
+- **Context Managers** - Using `with` statement for automatic file closing
+- **File Operations** - Creating files, reading content, modifying text
+- **File Renaming** - Using `os.rename()` for renaming files
+- **File Deletion** - Using `os.remove()` for deleting files
+- **String Replacement in Files** - Reading, modifying, and writing back data
+
+### ✅ Lambda Functions - Anonymous Functions
+- **Lambda Syntax** - `lambda arguments: expression`
+- **Single Expression** - Lambda functions contain only one expression
+- **No Return Statement** - Returns the result implicitly
+- **Use Cases** - Simple operations where defining a function is overkill
+- **Map Function** - Using `map(lambda_func, iterable)` to apply function to all elements
+- **Filter Function** - Using `filter(lambda_func, iterable)` to select elements based on condition
+- **Comparison with Regular Functions** - When to use lambda vs def
+- **Lambda with Multiple Parameters** - Handling multiple arguments in lambda
+- **Practical Examples:**
+  - Doubling list elements using map
+  - Finding perfect squares using map and set
+  - Filtering even/odd numbers using filter
+
+### ✅ Exception Handling - Error Management
+- **try Block** - Code that might raise an exception
+- **except Block** - Code to handle specific exceptions
+- **Multiple except Blocks** - Handling different exception types separately
+- **Exception Types:**
+  - `ZeroDivisionError` - Dividing by zero
+  - `NameError` - Using undefined variable
+  - `ValueError` - Invalid type/value for operation
+  - `IndexError` - Accessing invalid list index
+  - `KeyError` - Accessing invalid dictionary key
+  - `TypeError` - Wrong type in operation
+- **finally Block** - Code that executes regardless of exceptions
+- **Exception as Variable** - Using `except Exception as e:` to access error message
+- **Generic Exception** - Using `except:` to catch all exceptions
+- **Raising Exceptions** - Using `raise` keyword to throw custom exceptions
+- **Exception Messages** - Displaying error details for debugging
+- **Best Practices** - Catching specific exceptions instead of generic ones
 
 ---
 ## 📚 Topics Covered - Day 2
@@ -552,6 +614,115 @@ Comprehensive practice on variable declaration, assignment, manipulation, and un
 - 🔹 Combining functions for complex calculations
 
 **Total Questions Practiced Today - Day 6: 12+** 🎉
+
+---
+
+## 🏆 Practice Questions - Day 7
+
+### Questions Covered - Day 7
+
+#### 📝 **Recursion Problems (2+ Questions):**
+1. ✅ **Sum of Natural Numbers** - Compute sum from 1 to N using recursion
+   - Base Case: `if n == 0: return 0`
+   - Recursive Case: `return n + addSum(n - 1)`
+   - Example: Sum of 1 to 10 = 55
+
+2. ✅ **Factorial Function** - Compute N! using recursive approach
+   - Base Case: `if n == 0 or n == 1: return 1`
+   - Recursive Case: `return n * factorial(n - 1)`
+   - Example: 5! = 120
+
+3. ✅ **Printing Numbers Using Recursion** - Print n, n-1, n-2... 1 recursively
+   - Understanding function call stack
+   - Printing before and after recursive calls
+
+#### 📝 **File Handling Problems (3+ Questions):**
+4. ✅ **File Creation & Writing** - Create a new file and write content
+   - `open(filename, 'w')` mode for writing
+   - `write()` method for adding content
+   - `close()` method for releasing resources
+
+5. ✅ **File Reading & Content Manipulation** - Read file, modify content, write back
+   - `open(filename, 'r')` mode for reading
+   - `read()` method to get file content
+   - String `replace()` method for modifications
+   - Writing modified content back to file
+   - Example: Replace all occurrences of a word in file
+
+6. ✅ **File Operations with os module** - Rename and delete files
+   - `os.rename(old_filename, new_filename)` for renaming
+   - `os.remove(filename)` for deleting files
+   - Checking if file exists before operations
+
+7. ✅ **File Appending** - Add new content without overwriting
+   - `open(filename, 'a')` mode for appending
+   - Writing new lines to existing files
+
+#### 📝 **Lambda Functions Problems (3+ Questions):**
+8. ✅ **Lambda with Simple Operations** - Create lambda functions for calculations
+   - `lambda x: x**2` for squaring numbers
+   - `lambda x, y: x + y` for addition
+   - Calling lambda functions directly
+
+9. ✅ **Map with Lambda** - Apply lambda function to all list elements
+   - `map(lambda x: x*2, list)` to double all elements
+   - Converting map object to list
+   - Example: [1,2,3,4,5] → [2,4,6,8,10]
+
+10. ✅ **Perfect Squares with Lambda & Map** - Find perfect squares and store in set
+    - `map(lambda a: a**2, range(1, n+1))` for generating squares
+    - `set()` to store unique values
+    - Example: Perfect squares from 1 to 10 = {1, 4, 9, 16, 25, 36, 49, 64, 81, 100}
+
+#### 📝 **Exception Handling Problems (4+ Questions):**
+11. ✅ **Basic try-except** - Handle general exceptions
+    - Taking user input and converting to int
+    - Division operation that might cause ZeroDivisionError
+    - Generic `except:` block to catch any error
+    - Displaying "Invalid Input" on exception
+
+12. ✅ **Exception with Details** - Access exception message
+    - `except Exception as e:` to capture error object
+    - Printing error message with `print("ERROR = ", e)`
+    - Understanding error details for debugging
+
+13. ✅ **Multiple except Blocks** - Handle different exception types
+    - `except ZeroDivisionError:` for division by zero
+    - `except NameError:` for undefined variables
+    - Different messages for different errors
+    - Example: Dividing when divisor could be zero or variable undefined
+
+14. ✅ **try-except-finally Block** - Execute cleanup code regardless
+    - `try:` block with potential error
+    - `except:` block to handle error
+    - `finally:` block that always executes
+    - Use case: Closing files, releasing resources
+
+15. ✅ **Raising Custom Exceptions** - Throw exceptions programmatically
+    - `raise NameError(message)` to throw custom exception
+    - Validating conditions before execution
+    - Example: Age validation with custom error message
+
+16. ✅ **Mini Project - Random Password Generator** - Combine all concepts
+    - Using `string` module for character sets
+    - Using `random.choice()` to select random characters
+    - Using loop to generate password of desired length
+    - Combining letters, digits, and punctuation
+    - Example output: Random 5-character password
+
+**Key Concepts Practiced:**
+- 🔹 Recursion with base case and recursive case
+- 🔹 File operations (read, write, append)
+- 🔹 String manipulation and file content replacement
+- 🔹 os module for file operations (rename, delete)
+- 🔹 Lambda functions for simple calculations
+- 🔹 map() function for applying operations to lists
+- 🔹 Exception handling with try-except-finally
+- 🔹 Multiple exception types and specific error handling
+- 🔹 Raising custom exceptions for validation
+- 🔹 Mini project combining file, exception, and lambda concepts
+
+**Total Questions Practiced Today - Day 7: 16+** 🎉
 
 ---
 
