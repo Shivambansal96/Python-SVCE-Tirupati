@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%205-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%206-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -108,13 +108,19 @@ Day 5 - Problem Solving with Patterns:
 ✅ Problem-Solving Approach - Analyzing pattern logic step-by-step
 ✅ Pyramid Pattern with Spacing - Centered pyramids with numbers
 
-Day 6 - Functions & Modular Programming:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+Day 6 - Dictionaries & Functions:
+████████████████████████████████ 100%
 
-⏳ Function definition and calling
-⏳ Parameters and return values
-⏳ Variable scope (local vs global)
-⏳ Recursion
+✅ Dictionaries - Data structure fundamentals
+✅ Dictionary Creation, Indexing, and Access
+✅ Dictionary Methods - keys(), values(), items(), get(), update()
+✅ Nested Dictionaries - Multi-level key-value pairs
+✅ Dictionary Manipulation - Adding and updating key-value pairs
+✅ Function Definition and Calling
+✅ Parameters and Return Values
+✅ Multiple Parameters and Return Statements
+✅ Mathematical Functions - Factorial, Permutation, Combination
+✅ 8+ Practice Questions Solved
 
 Day 7 - File Handling & I/O Operations:
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -203,7 +209,34 @@ graph LR
 - **Type Errors** - Understanding and handling conversion errors
 
 ---
+## 📚 Topics Covered - Day 6
 
+### ✅ Dictionaries - Key-Value Data Structure
+- **Dictionary Creation & Initialization** - Creating dictionaries with `{}` and `dict()`
+- **Dictionary Indexing & Access** - Accessing values using keys `dict[key]`
+- **Nested Dictionaries** - Dictionaries containing other dictionaries as values
+- **Dictionary Methods** - 
+  - `.keys()` - Get all keys from dictionary
+  - `.values()` - Get all values from dictionary
+  - `.items()` - Get key-value pairs as tuples
+  - `.get()` - Safely access values with default returns
+  - `.update()` - Add or modify key-value pairs
+- **Dictionary Manipulation** - Adding new keys, updating existing values, removing entries
+- **Iterating Dictionaries** - Looping through keys, values, and key-value pairs
+- **Dictionary Applications** - Storing structured data, counting frequencies, mapping relationships
+
+### ✅ Functions - Modular Programming
+- **Function Definition** - Using `def` keyword to create reusable code blocks
+- **Function Calling** - Invoking functions with proper syntax
+- **Parameters & Arguments** - Defining input parameters and passing arguments
+- **Return Statements** - Returning values from functions
+- **Multiple Parameters** - Functions with multiple input parameters (e.g., `def add(a, b, c, d, e)`)
+- **Mathematical Functions** - Creating functions for calculations (addition, factorial, etc.)
+- **Function Basics** - Understanding when and why to use functions for code reusability
+- **Factorial Function** - Computing factorial of a number using loops inside functions
+- **Permutation & Combination** - Using factorial function to calculate nPr and nCr
+
+---
 ## 📚 Topics Covered - Day 2
 
 ### ✅ Conditional Statements
@@ -459,6 +492,66 @@ Comprehensive practice on variable declaration, assignment, manipulation, and un
 - 🔹 Debugging pattern logic step-by-step
 
 **Total Questions Practiced Today - Day 5: 13+** 🎉
+
+---
+
+## 🏆 Practice Questions - Day 6
+
+### Questions Covered - Day 6
+
+#### 📝 **Dictionary Problems (3+ Questions):**
+1. ✅ **Dictionary Creation** - Creating dictionary with word definitions (multiple values per key)
+   - `myDict = {'table': ['a piece of furniture', 'lists of facts & figures'], 'cat': 'a small animal'}`
+
+2. ✅ **User Input Dictionary (Multiple Approaches)** - Taking subject names and marks from user
+   - **Approach 1:** Using separate input statements with `.update()` method
+   - **Approach 2:** Using for loop for n iterations
+   - **Approach 3:** Dynamic key assignment with `dict[key] = value`
+
+3. ✅ **Dictionary Update Operations** - Modifying existing dictionary values using `.update()` method
+
+4. ✅ **Square Number Dictionary** - Creating dictionary with numbers as keys and their squares as values using loops
+
+5. ✅ **Frequency Counter** - Counting frequency of elements in a list using dictionary
+   - **Method 1:** Using conditional check `if key in dict`
+   - **Method 2:** Using nested loops to count occurrences
+
+#### 📝 **Function Problems (5+ Questions):**
+6. ✅ **Simple Addition Function** - Function with parameters returning sum
+   - `def addition(a, b): return a + b`
+
+7. ✅ **Multiple Parameters Function** - Function with 5 parameters adding all values
+   - `def addition(a, b, c, d, e): return sum`
+
+8. ✅ **Array Length Function** - Function taking array/list as parameter
+   - `def lengthOfArr(myArr): return len(myArr)`
+
+9. ✅ **Array Traversal Function** - Function iterating through array elements
+   - `def lengthOfArr(myArr): for i in myArr: print(i)`
+
+10. ✅ **Repeated Function Calls** - Calling same function multiple times with different arguments
+    - `add(2, 3)`, `add(50, 31)`, `add(5130, 32131)`, etc.
+
+11. ✅ **Factorial Function** - Computing factorial of a number
+    - `def factorial(n): fact = 1; for i in range(1, n+1): fact *= i; return fact`
+
+12. ✅ **Permutation & Combination** - Advanced mathematical problem using factorial function
+    - **Permutation (nPr):** `factorial(n) / factorial(n-r)`
+    - **Combination (nCr):** `factorial(n) / (factorial(n-r) * factorial(r))`
+    - **Example:** For n=5, r=3: P(5,3) = 60, C(5,3) = 10
+
+**Key Concepts Practiced:**
+- 🔹 Dictionary creation and indexing
+- 🔹 Nested data structures (dictionaries within dictionaries)
+- 🔹 Dictionary methods (keys, values, items, get, update)
+- 🔹 Frequency counting with dictionaries
+- 🔹 Function definition with single and multiple parameters
+- 🔹 Return statements and function output
+- 🔹 Function reusability and calling patterns
+- 🔹 Mathematical operations in functions (factorial, permutation, combination)
+- 🔹 Combining functions for complex calculations
+
+**Total Questions Practiced Today - Day 6: 12+** 🎉
 
 ---
 
