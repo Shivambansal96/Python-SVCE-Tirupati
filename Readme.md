@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%207-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%208-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -131,11 +131,25 @@ Day 7 - Recursion, File Handling, Lambda Functions & Exception Handling:
 ✅ Exception Handling - try-except-finally blocks
 
 Day 8 - Classes and Objects:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+████████████████████████████████ 100%
 
-⏳ Class definition
-⏳ Attributes and methods
-⏳ Constructors (__init__)
+✅ Class definition and object instantiation
+✅ The `self` parameter and instance context
+✅ Instance attributes vs Class (static) attributes
+✅ Constructors (`__init__`) and default/optional parameters
+✅ Instance methods and invoking methods on objects
+✅ `@staticmethod` and `@classmethod` (when to use each)
+✅ Attribute access, modification, and deletion (`del`)
+✅ Encapsulation basics (public, protected `_name`, name-mangling `__name`)
+✅ Properties and `@property` / setters for controlled access
+✅ Basic composition (objects as attributes of other objects)
+✅ Simple examples and exercises: `Student` class, averages, `Circle` class (area/perimeter)
+
+### ✅ Practical Exercises 
+- `Student` class examples: basic attribute access, constructors with parameters, default constructor values, and a `avg()` method to compute student averages.
+- Demonstrations of instance vs class variables and `del` usage on attributes/objects.
+- `Circle` class: methods for `areaOfCircle()` and `perimeterOfCircle()`, and a `@staticmethod` example.
+- Suggested follow-ups: add `__str__/__repr__` to classes, implement `@classmethod` factory methods, and add input-driven object creation.
 
 Day 9 - Object-Oriented Programming (OOPS):
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -176,7 +190,7 @@ graph LR
     style E fill:#4D96FF,stroke:#333,color:#fff
     style F fill:#7C3AED,stroke:#333,color:#fff
     style G fill:#EC4899,stroke:#333,color:#fff
-    style H fill:#F59E0B,stroke:#333,color:#000
+    style H fill:#90EE90,stroke:#333,color:#000
     style I fill:#3B82F6,stroke:#333,color:#fff
     style J fill:#10B981,stroke:#333,color:#fff
 ```
@@ -299,6 +313,161 @@ graph LR
 - **Best Practices** - Catching specific exceptions instead of generic ones
 
 ---
+
+## 📚 Topics Covered - Day 8
+
+### ✅ Object-Oriented Programming Fundamentals - Classes and Objects
+
+#### **Class Definition and Instantiation**
+- **Class Concept** - Blueprint for creating objects (instances)
+- **Class Syntax** - Using `class ClassName:` to define a class
+- **Creating Objects** - Instantiating classes with `obj = ClassName()`
+- **Object Identity** - Each object is unique with its own memory address
+
+#### **The `self` Parameter**
+- **self Reference** - Represents the instance in methods
+- **Instance Context** - `self` allows methods to access instance attributes
+- **Method Binding** - Methods are automatically bound to instances via `self`
+- **Implicit Passing** - `self` is implicitly passed when calling methods
+
+#### **Attributes and Instance Variables**
+- **Instance Attributes** - Variables unique to each object (defined in `__init__`)
+- **Class Attributes** - Variables shared by all instances (defined at class level)
+- **Attribute Access** - Accessing via dot notation: `obj.attribute`
+- **Attribute Assignment** - Setting values: `obj.attribute = value`
+- **Attribute Deletion** - Using `del obj.attribute` to remove attributes
+
+#### **Constructor (`__init__`) Method**
+- **Constructor Purpose** - Initialize instance when object is created
+- **Defining Constructor** - `def __init__(self, parameters):`
+- **Default Parameters** - Using default values: `def __init__(self, name="anonymous")`
+- **Multiple Parameters** - Accepting multiple arguments in constructor
+- **Parameter to Attribute Mapping** - Converting parameters to instance attributes
+
+#### **Instance Methods**
+- **Method Definition** - Functions defined within a class
+- **Method Calling** - Invoking methods: `obj.method()`
+- **Method with Computations** - Methods performing calculations on attributes
+- **Return Values** - Methods returning computed results or None
+
+#### **Static Methods and Class Methods**
+- **@staticmethod Decorator** - Methods that don't need instance or class access
+- **When to Use Static Methods** - Utility functions related to the class
+- **Syntax** - `@staticmethod` above method definition
+- **Class Methods** - `@classmethod` for methods accessing class variables
+- **Understanding Differences** - Static vs instance vs class methods
+
+#### **Encapsulation and Access Control**
+- **Public Attributes** - Accessible from anywhere: `attribute`
+- **Protected Attributes** - Convention for internal use: `_attribute`
+- **Name Mangling** - Private attributes: `__attribute` (becomes `_ClassName__attribute`)
+- **Properties and Getters/Setters** - Using `@property` for controlled access
+- **Benefit of Encapsulation** - Hiding implementation details
+
+#### **Special Methods (Magic Methods / Dunder Methods)**
+- **`__init__`** - Constructor for initialization
+- **`__str__`** - String representation for `print()` and `str()`
+- **`__repr__`** - Developer-friendly representation for debugging
+- **`__del__`** - Destructor called when object is deleted
+- **Understanding Purpose** - When and why to override special methods
+
+#### **Object Composition**
+- **Objects as Attributes** - Storing objects inside other objects
+- **Building Complex Structures** - Combining multiple classes
+- **Accessing Nested Objects** - Chaining dot notation: `obj.obj2.attribute`
+
+#### **Practical Application - Real-World Examples**
+- **Student Class** - Attributes (name, marks), methods (calculate average)
+- **Circle Class** - Attributes (radius), methods (area, perimeter calculations)
+- **Calculator Functions** - Performing mathematical operations within methods
+- **Dynamic Object Creation** - Creating multiple instances with different data
+
+---
+
+## 🏆 Practice Questions - Day 8
+
+### Questions Covered - Day 8
+
+#### 📝 **Class Definition and Object Creation (2+ Questions):**
+1. ✅ **Basic Class Definition** - Define `Student` class with simple attributes
+   - Class declaration: `class Student:`
+   - Instance variable: `self.name = name`
+
+2. ✅ **Constructor with Parameters** - Create objects with initialization parameters
+   - Example: `s1 = Student("Shivam")` initializes student name
+   - Multiple parameters: `Student(name, sub1, sub2, sub3)` for subjects
+
+3. ✅ **Default Constructor Values** - Using optional/default parameters
+   - `def __init__(self, fullName="anonymous"):` provides default fallback
+   - Creating objects without parameters: `s3 = Student()`
+
+#### 📝 **Instance Methods and Attributes (3+ Questions):**
+4. ✅ **Method Definition** - Create methods to compute values
+   - Example: `avg()` method computes average of subject marks
+   - Method calling: `s1.avg()` invokes method on instance
+
+5. ✅ **Accessing Instance Attributes** - Using `self.attribute` in methods
+   - Calculating with attributes: `sumOfAll = self.sub1 + self.sub2 + self.sub3`
+   - Output formatting: f-strings for display: `f"{self.name}'s Average = {avgOf3}"`
+
+6. ✅ **Multiple Object Instances** - Creating and manipulating multiple objects
+   - Creating 5 `Student` objects: `s1, s2, s3, s4, s5 = Student(...)`
+   - Calling method on each: `s1.avg()`, `s2.avg()`, etc.
+   - Each instance maintains separate data
+
+#### 📝 **Class vs Instance Attributes (2+ Questions):**
+7. ✅ **Class Variables** - Attributes shared across all instances
+   - Defining at class level: `marks = 24`
+   - Accessing via instance: `s1.marks`
+
+8. ✅ **Attribute Deletion** - Using `del` keyword on attributes
+   - Deleting instance attribute: `del s1.marks`
+   - Deleting entire object: `del s1`
+   - Checking deletion: attribute no longer accessible
+
+#### 📝 **Geometric Calculations with Classes (3+ Questions):**
+9. ✅ **Circle Class - Attributes** - Define `Circle` with radius parameter
+   - Constructor: `def __init__(self, radius):`
+   - Instance variable: `self.r = radius`
+
+10. ✅ **Circle Class - Area Method** - Calculate circle area
+    - Formula: `area = (22/7) * r * r`
+    - Rounding: `area = int(area)`
+    - Output: `f"Area of a Circle with radius {self.r} = {area}"`
+
+11. ✅ **Circle Class - Perimeter Method** - Calculate circle perimeter
+    - Formula: `perimeter = 2 * (22/7) * r`
+    - Method: `def perimeterOfCircle(self):`
+    - Similar formatting and output structure
+
+12. ✅ **Static Method Example** - Demonstrate @staticmethod decorator
+    - Syntax: `@staticmethod` decorator above method
+    - Example: `def testingStaticMethod():` (no `self` parameter)
+    - Calling: `Circle.testingStaticMethod()` or `c1.testingStaticMethod()`
+
+#### 📝 **byteXL Platform Exercises (15+ Questions)** - Comprehensive practice
+
+**Key Concepts Practiced:**
+- 🔹 Understanding classes as blueprints for objects
+- 🔹 Role of `self` in instance methods and attributes
+- 🔹 Constructor initialization patterns (`__init__`)
+- 🔹 Instance vs class attributes distinction
+- 🔹 Creating multiple instances with independent state
+- 🔹 Method definition and calling conventions
+- 🔹 Using @staticmethod decorator
+- 🔹 Practical OOP with real-world examples (Student, Circle)
+- 🔹 Mathematical computations within class methods
+- 🔹 String formatting in object methods (f-strings)
+
+**Key Exercise Patterns:**
+- **Student Class Pattern:** Constructor with multiple parameters → Methods computing aggregate values
+- **Circle Class Pattern:** Geometric calculations (area, perimeter) → Static method demonstration
+- **Multi-Instance Pattern:** Creating several objects → Independent data per instance → Calling methods on each
+
+**Total Questions Practiced Today - Day 8: 27+** 🎉
+
+---
+
 ## 📚 Topics Covered - Day 2
 
 ### ✅ Conditional Statements
