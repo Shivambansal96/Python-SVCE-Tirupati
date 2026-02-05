@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![Students](https://img.shields.io/badge/SVEC%20Students-Learning-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%208-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%209-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Basics%20Covered-success?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals - From Scratch!*
@@ -152,12 +152,13 @@ Day 8 - Classes and Objects:
 - Suggested follow-ups: add `__str__/__repr__` to classes, implement `@classmethod` factory methods, and add input-driven object creation.
 
 Day 9 - Object-Oriented Programming (OOPS):
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+████████████████████████████████ 100%
 
-⏳ Inheritance
-⏳ Polymorphism
-⏳ Encapsulation
-⏳ Abstraction
+✅ Classes and Objects Revision
+✅ Access Modifiers (Public, Protected, Private)
+✅ Encapsulation - Data hiding and access control
+✅ Abstraction - ABC (Abstract Base Classes)
+⏳ Polymorphism (Method Overriding, Method Overloading)
 
 Day 10 - Problem Solving (with AI Assistant):
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
@@ -898,6 +899,165 @@ Comprehensive practice on variable declaration, assignment, manipulation, and un
 - Review all string methods and practice with real-world examples
 - Focus on understanding the "why" behind each function
 - Practice daily for better retention
+
+---
+
+## 📚 Topics Covered - Day 9
+
+### ✅ Classes and Objects - Comprehensive Revision
+- **Class Definition** - Creating blueprints for objects using `class` keyword
+- **Object Instantiation** - Creating objects from classes
+- **Instance Variables** - Attributes unique to each object instance
+- **Class Variables** - Shared attributes among all class instances
+- **Constructor (`__init__`)** - Initializing objects with parameters
+- **Instance Methods** - Functions that operate on instance data
+- **Object Reference** - Understanding object identity and memory
+
+### ✅ Access Modifiers - Data Protection & Encapsulation
+#### **Public Members** (No prefix)
+- **Public Attributes** - Accessible from anywhere: `self.attribute`
+- **Public Methods** - Can be called on object instances from any scope
+- **Use Case** - Data/methods meant for external use
+
+#### **Protected Members** (Single Underscore `_`)
+- **Protected Attributes** - Convention for internal use: `self._attribute`
+- **Protected Methods** - Convention signals "use with caution"
+- **Use Case** - Internal data that subclasses may need to access
+- **Note:** Python doesn't enforce protection, it's a coding convention
+
+#### **Private Members** (Double Underscore `__`)
+- **Name Mangling** - `__attribute` becomes `_ClassName__attribute`
+- **Private Attributes** - `self.__private_var`
+- **Private Methods** - `def __privateMethod(self):`
+- **Access from Class** - Can be accessed within class using name mangling
+- **Access from Outside** - Technically possible but highly discouraged: `obj._ClassName__attribute`
+- **Use Case** - Strict data hiding from external code
+- **Real-world Example:** Bank account password protection in `Account` class
+
+### ✅ Encapsulation - Data Hiding and Access Control
+- **Purpose** - Protect data integrity by controlling access
+- **Private Data** - Using `__attribute` to hide sensitive information
+- **Getter Methods** - Public methods to read private data safely
+- **Setter Methods** - Public methods to modify private data with validation
+- **Properties** - Using `@property` decorator for controlled access (Pythonic way)
+- **Validation** - Checking data before setting values
+- **Real-world Example:** 
+  - Bank Account: Password visibility control, balance modification with validation
+  - Student: Preventing direct score manipulation, allowing only through proper methods
+
+### ✅ Abstraction - Abstract Base Classes (ABC)
+- **Purpose** - Hide complexity by showing only essential features
+- **Abstract Base Classes** - Using `ABC` and `@abstractmethod` from `abc` module
+- **Import Statement** - `from abc import ABC, abstractmethod`
+- **Abstract Methods** - Methods that must be implemented by subclasses
+- **Decorator** - `@abstractmethod` marks methods as abstract
+- **Preventing Instantiation** - Cannot create objects of abstract classes
+- **Enforcement** - Subclasses must implement all abstract methods
+- **Use Case** - Defining interface/contract for subclasses
+- **Example:** 
+  - `Animal` (abstract) with `legs()` method
+  - `Dog`, `Cat` classes inherit and implement `legs()` differently
+  - Forces all subclasses to have consistent interface
+
+### ✅ Inheritance - Code Reusability (Revision)
+- **Single Inheritance** - One parent, one child: `class Child(Parent):`
+- **Multiple Inheritance** - One child, multiple parents: `class Child(Parent1, Parent2):`
+- **Multi-level Inheritance** - Chain of inheritance: `GrandParent → Parent → Child`
+- **Constructor Chaining** - Using `super().__init__()` to call parent constructor
+- **Method Overriding** - Child class redefining parent's methods
+- **Method Resolution Order (MRO)** - Order in which Python searches for methods
+- **super() Function** - Accessing parent class methods from child class
+
+---
+
+## 🏆 Practice Questions - Day 9
+
+### Questions Covered - Day 9
+
+#### 📝 **Access Modifiers & Encapsulation (2+ Questions):**
+1. ✅ **Private Data Protection** - `Account` class with private password
+   - Private attribute: `self.__accPass`
+   - Private method: `def __showPassword(self):`
+   - Public method for controlled access: `def resetPassword(self, newPassword):`
+   - Demonstrates: Only class methods can access private members
+   - Example: Cannot directly access `a1.__accPass` from outside
+
+2. ✅ **Employee-Engineer Inheritance with Encapsulation**
+   - `Employee` parent class with protected attributes
+   - `Engineer` child class extending `Employee`
+   - Constructor chaining using `super().__init__()`
+   - Demonstrates: Protected members inherited but not directly exposed
+   - Practical application: Employee management system
+
+#### 📝 **Abstraction with ABC (1+ Questions):**
+3. ✅ **Abstract Animal Class**
+   - `from abc import ABC, abstractmethod`
+   - `class Animal(ABC):` - Cannot be instantiated
+   - `@abstractmethod def legs():` - Must be implemented by subclasses
+   - `class Dog(Animal):` - Implements the `legs()` method
+   - Demonstrates: Forcing consistent interface across animal types
+   - Benefit: Cannot create generic Animal object, must specify type
+
+#### 📝 **Single Inheritance (2+ Questions):**
+4. ✅ **Animal Class Hierarchy**
+   - `Animal` parent class with class attributes: `whoAreYou`
+   - `Carnivores` inheriting from `Animal`
+   - `Lion` inheriting from `Carnivores` (multi-level)
+   - Method inheritance: `intro()` method available to all subclasses
+   - Accessing parent attributes: All animals have access to `whoAreYou`
+
+5. ✅ **Basic Class Definition with Deletion**
+   - `Student` class with constructor
+   - Creating instances: `s1 = Student()`, `s2 = Student()`, `s3 = Student()`
+   - Using `del` statement: `del s1` to remove object reference
+   - Class vs Instance variables
+   - Demonstrates: Object creation, class attributes, deletion
+
+#### 📝 **Multiple Inheritance (1+ Questions):**
+6. ✅ **Father-Mother-Son Example**
+   - `class Father:` with attribute `a = 4`
+   - `class Mother:` with attribute `b = 1`
+   - `class StupidSon(Father, Mother):` inherits from both parents
+   - Demonstrates: Child can access attributes from both parents
+   - Method Resolution Order (MRO): Python searches Father first, then Mother
+   - Real-world analogy: Inheriting traits from both parents
+
+#### 📝 **Constructor and super() Usage (1+ Question):**
+7. ✅ **Class A and B with Constructor Chaining**
+   - `class A:` with `__init__` and `@staticmethod`
+   - `class B(A):` inheriting from A
+   - Using `super().__init__()` to call parent constructor
+   - Output demonstrates: Both parent and child constructors execute in order
+   - Demonstrates: Proper initialization of inherited objects
+
+#### 📝 **Real-World Application (1+ Question):**
+8. ✅ **Bank Account Management System**
+   - `Account` class with private attributes
+   - Methods: `debit()`, `credit()`, `showBalance()`
+   - Validation in `debit()`: Check if amount exceeds balance
+   - Demonstrates: Encapsulation, data validation, method logic
+   - Real-world use: Banking system with transaction management
+   - Example: Debit request higher than balance → "Insufficient Amount" message
+
+### 📌 Key Concepts Practiced - Day 9:
+- 🔹 Access modifiers for data protection (public, protected, private)
+- 🔹 Name mangling with double underscore (`__`)
+- 🔹 Private methods for internal operations only
+- 🔹 Constructor chaining with `super()`
+- 🔹 Method overriding in inheritance
+- 🔹 Abstract base classes and `@abstractmethod`
+- 🔹 Single, multiple, and multi-level inheritance
+- 🔹 Encapsulation principles (data hiding + controlled access)
+- 🔹 Validation logic in methods
+- 🔹 Real-world OOP patterns (banking, employee management)
+
+### 🎯 Polymorphism - COMING NEXT (Not Covered Today)
+- ⏳ Method Overriding (subclass redefining parent method with same name)
+- ⏳ Method Overloading (Python doesn't support, but similar behavior with *args/**kwargs)
+- ⏳ Duck Typing - "If it looks like a duck and quacks like a duck, it's a duck"
+- ⏳ Operator Overloading (`__add__`, `__sub__`, etc.)
+
+**Total Questions Practiced Today - Day 9: 8+** 🎉
 
 ---
 
